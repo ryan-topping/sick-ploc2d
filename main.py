@@ -72,7 +72,7 @@ class PLOC2D:
     }
 
     
-class PLOC2D_Session:
+class PLOC2DSession:
     """Represents a socket session over TCP/IP with a Sick PLOC2D for automated
     object location implementation.
 
