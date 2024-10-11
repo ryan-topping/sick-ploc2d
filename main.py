@@ -185,7 +185,7 @@ class PLOC2DSession:
         r2 = float(data.get("r2", 0))
         r3 = float(data.get("r3", 0))
         scale = float(data.get("scale", 0))
-        score = int(data.get("score", 0))
+        score = float(data.get("score", 0.0))
         locate_time = int(data.get("time", 0))
         exposure = int(data.get("exposure", 0))
         identified = int(data.get("identified", 0))
