@@ -31,7 +31,7 @@ class Result:
                  r2: float,
                  r3: float,
                  scale: float,
-                 score: int,
+                 score: float,
                  time: int,
                  exposure: int,
                  identified: int):
